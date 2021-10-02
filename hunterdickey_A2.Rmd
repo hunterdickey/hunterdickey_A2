@@ -1,0 +1,16 @@
+---
+title: "hunterdickey_A2"
+author: "Hunter Dickey"
+date: "10/2/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, warning = F, message = F)
+```
+
+```{r}
+setwd("~/Documents/GitHub/hunterdickey_A2")
+
+```
+
