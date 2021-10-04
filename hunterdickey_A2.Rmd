@@ -255,7 +255,7 @@ dec_pop_2020 <-
 
 
 ```{r}
-listCensusMetadata
+# listCensusMetadata
 
 dec_population_2010 <-
   listCensusMetadata(
@@ -283,11 +283,6 @@ dec_pop_2010 <-
 ```
 
 ```{r}
-censusapi::getCensus("sf1", 
-    vars = c("B01003"), 
-    region = "zip code tabulation area:*", 
-    vintage = 2010, 
-    Sys.setenv(CENSUS_KEY="c8aa67e4086b4b5ce3a8717f59faa9a28f611dab"), 
-    regionin = "state:09")
+
 ```
 
